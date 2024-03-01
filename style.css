@@ -1,0 +1,412 @@
+body{
+    background-color: #D4E4FB;
+}
+a{
+    cursor: pointer;
+}
+.header-main{
+    width: 100%;
+    height: 67px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    width:200px;
+    height: 100%;
+    padding-left: 30px;
+}
+.header-logo img{
+ max-height: 63px;
+ align-self: center;
+}
+.header-nav{
+    display: flex;
+    height: 100%;
+    
+}
+.header-nav ul{
+list-style: none;
+margin-left: 10px;
+}
+.header-nav ul li{
+    display: inline;
+    float: left;
+}
+.header-nav ul li a{
+    padding: 0 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 67px;
+} 
+.header-login{
+    width: fit-content;
+    height: 100%;
+}
+.header-login a{
+    line-height: 67px;
+    font-size: 17px;
+}
+.header-icons{
+    width: fit-content;
+    height: 100%;
+    padding-right: 64px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.header-icons-heart{
+width: 20px;
+height: 20px;
+}
+.header-icons-sb{
+width: 20px;
+height: 20px;
+background-color: none;
+}
+.top-menu{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+}
+.top-menu ul{
+list-style: none;
+margin-left: 10px;
+}
+.top-menu li{
+    display: inline;
+    float: left;
+}
+.top-menu ul li a{
+    padding: 0 25px ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 67px;
+} 
+.sidebar-container{
+    display: flex;
+}
+.sidebar{
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    height: 100vh;
+    background-color: white;
+    border-radius: 3px;
+}
+.sidebar-title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sidebar-list{
+    list-style: none;
+}
+.sidebar-item{
+    margin-bottom: 10px;
+}
+.sidebar-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+.sidebar-link:hover{
+    background-color: #ddd;
+}
+.nested-list{
+    list-style: circle;
+    padding-left: 15px;
+    display: none;
+    font-size:18px;
+}
+.nested-list li{
+    padding: 7px;
+}
+.sidebar-item:focus-within .nested-list,
+.sidebar-link:focus + .nested-list {
+  display: block;
+}
+.new-arrivals{
+    background-image: url(https://phonesstorekenya.com/wp-content/uploads/2023/05/lipa-banne.png);
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.new-arrivals-container{
+    width: 500px;
+    height: 60px;
+    margin-left: 50px;
+    
+}
+.shop-now-btn{
+    background-color: #33333369;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.shop-now-btn:hover{
+    background-color: #D4E4FB;
+}
+.product-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 1; 
+  }
+  
+  .product-boxes-container {
+    max-width: max-content; /* Adjust as needed */
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-box {
+    width: calc(25% - 20px); /*  4 columns with 20px margins */
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+  
+  .product-box img {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  .product-info {
+    width: 100%; 
+    max-height: max-content;
+  }
+  
+  .product-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px; 
+  }
+  
+  .product-info p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  .footer {
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav li {
+    margin-right: 20px;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us-section h2{
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-us-section h3 {
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.about-us-section p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.location-section {
+    padding: 40px 0;
+}
+
+.location-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.location-container h2{
+    font-size: 30px;
+    color: black;
+}
+.location-container h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.location-container p{
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.location-container .map {
+    margin-top: 20px;
+}
+
+.address {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contacts {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 9rem;
+    justify-content: center;
+}
+
+.contact-form {
+    align-items: center;
+    background-color: #6466684f;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #6466684f;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 2px solid aqua;
+}
+
+label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+input:valid + label, textarea:valid + label {
+    top: -15px;
+    font-size: 15px;
+    color: white;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.572);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #495057;
+}
+.footer{
+  background-color: #6466684f;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+.footer-container p{
+  color: black;
+}
+
+
+.social-media-icons {
+font-size: 24px;
+
+}
+.social-media-icons a{
+  margin-left: 15px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+.faq-section {
+    padding: 40px 0;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-container h2{
+    line-height: 1.5;
+}
+.faq-container h3 {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.faq-question {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
